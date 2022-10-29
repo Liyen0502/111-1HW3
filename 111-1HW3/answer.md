@@ -59,6 +59,10 @@
 若要於內文中標示部分.aspx檔，則使用以下標籤` ```html 程式碼 ``` `，
 下段程式碼則為使用後結果：
 
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Test.aspx.cs" Inherits="_111_1HW3.Test" %>
+
+<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
