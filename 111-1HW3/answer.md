@@ -22,7 +22,7 @@
 還需使用語法` ```csharp 程式碼 ``` `，
 下段程式碼則為使用後結果：
 
-public partial class Test : System.Web.UI.Page
+    public partial class Test : System.Web.UI.Page
     {
         string[] sa_Cate = new string[2] { "蔬菜", "水果" };
         string[,] sa_Food = new string[2, 2] { { "A菜", "空心菜" }, { "番茄", "火龍果" } };
